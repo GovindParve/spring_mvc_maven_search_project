@@ -1,0 +1,33 @@
+package springmvcsearch;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+public class FormControler {
+	
+	@RequestMapping("/complex")
+	public String showForm() {
+		return "complex_form";
+	}
+	
+	
+	@RequestMapping(path="/handleform", method = RequestMethod.POST)
+	public String formHandler(@ModelAttribute("name") Student student, Model model) {
+		System.out.println(student);
+		model.addAttribute("msg", "User created with id: "+student);
+		return "redirect:success";
+	}
+	
+	@RequestMapping("/success")
+	public String success() {
+		return "success";
+	}
+	
+	
+	
+
+}

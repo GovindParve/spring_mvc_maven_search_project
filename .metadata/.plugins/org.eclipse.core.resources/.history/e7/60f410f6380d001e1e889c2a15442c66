@@ -1,0 +1,11 @@
+package springmvcsearch;
+
+public class SearchController {
+	
+	public String home()
+	{
+		System.out.println("going to home");
+		return "home";
+	}
+
+}

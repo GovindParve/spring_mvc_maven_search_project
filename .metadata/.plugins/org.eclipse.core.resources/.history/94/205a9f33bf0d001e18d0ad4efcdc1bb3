@@ -1,0 +1,8 @@
+package springmvcsearch;
+
+public class Address {
+	
+	private String sreet;
+	private String city;
+
+}

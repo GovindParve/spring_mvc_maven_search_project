@@ -1,0 +1,14 @@
+package springmvcsearch;
+
+import java.util.Date;
+
+public class Student {
+	
+	private String name;
+	private Long id;
+	private Date dob;
+	private List<String> name;
+	private String name;
+	
+
+}

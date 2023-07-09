@@ -1,0 +1,14 @@
+package springmvcsearch;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+public class FileUploadController {
+	
+	
+	@RequestMapping("/fileform")
+	public String showUploadForm()
+	{
+		return "fileform";
+	}
+
+}

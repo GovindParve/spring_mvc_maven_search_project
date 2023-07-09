@@ -1,0 +1,14 @@
+
+Jun 18, 2023 13:54:18.736 NEW SESSION
+Jun 18, 2023 13:54:18.736 [7960:6980:0618/135418.721:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Invalid credentials (credentials rejected by client).
+Jun 18, 2023 15:28:25.884 [7960:6980:0618/152825.883:ERROR:interface_endpoint_client.cc(697)] Message 5 rejected by interface blink.mojom.WidgetHost
+Jun 18, 2023 17:43:53.333 [7960:7388:0618/174353.330:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Jun 18, 2023 18:00:26.150 [7960:7388:0618/180026.149:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Jun 18, 2023 18:04:51.832 [7960:7388:0618/180451.831:ERROR:connection_handler_impl.cc(472)] Timed out waiting for GCM Protocol buffer.
+Jun 18, 2023 18:04:51.833 [7960:7388:0618/180451.831:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -7
+Jun 18, 2023 18:29:49.662 [7960:7388:0618/182949.662:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Jun 18, 2023 18:34:31.921 [7960:7388:0618/183431.919:ERROR:connection_handler_impl.cc(472)] Timed out waiting for GCM Protocol buffer.
+Jun 18, 2023 18:34:31.922 [7960:7388:0618/183431.921:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -7
+Jun 18, 2023 19:11:46.882 ERROR: Client requested cancel during Invoke()
+Jun 18, 2023 20:33:59.262 [7960:7388:0618/203359.262:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Jun 18, 2023 20:51:30.135 [7960:7388:0618/205130.135:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2

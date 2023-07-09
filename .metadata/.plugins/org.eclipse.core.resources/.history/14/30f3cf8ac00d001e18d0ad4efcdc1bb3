@@ -1,0 +1,19 @@
+package springmvcsearch;
+
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.format.annotation.DateTimeFormat;
+
+public class Student {
+	
+	private String name;
+	private Long id;
+	@DateTimeFormat(pattern="dd/MM/yyy")
+	private Date dob;
+	private List<String> courses;
+	private String gender;
+	private String type;
+	private Address address;
+
+}
